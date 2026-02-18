@@ -1,0 +1,6 @@
+user_id,session_length,conversion,revenue,retention_flag
+1,320,1,120.5,1
+2,150,0,0,0
+3,600,1,240.0,1
+4,210,0,0,0
+5,500,1,99.99,1
