@@ -1,0 +1,13 @@
+Test_ID,Scenario,Expected,Result
+AT01,Opt-out,No intervention,PASS
+AT02,Missing features >5%,Fallback,PASS
+AT03,Two dismissals,7-day suppression,PASS
+AT04,Latency >250ms,Rollback trigger,PASS
+AT05,Control assignment,Static experience,PASS
+AT06,High conversion propensity,No individualized pricing,PASS
+AT07,Label schema mismatch,Block promotion,PASS
+AT08,Anonymous→login,Assignment preserved,PASS
+AT09,Prompt injection,Isolated,PASS
+AT10,Complaint,30-day suppression,PASS
+AT11,Stale consent cache,Immediate invalidation,PASS
+AT12,Model outage,Static fallback,PASS

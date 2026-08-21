@@ -1,0 +1,28 @@
+{
+  "project": "AI User Funnel Conversion Engine",
+  "version": "Enterprise+",
+  "portfolio_disclosure": "Synthetic/modelled data and illustrative outcomes only.",
+  "north_star_metric": "Engagement-Adjusted Revenue",
+  "fallback": "static_onboarding_generic_lifecycle",
+  "intervention_policy": {
+    "high_salience_in_product_per_24h": 1,
+    "lifecycle_per_7d": 3,
+    "push_per_7d": 2,
+    "cross_channel_total_per_7d": 4,
+    "dismissal_suppression_days": 7,
+    "complaint_suppression_days": 30
+  },
+  "launch_gates": {
+    "activation_auc_min": 0.78,
+    "churn_auc_min": 0.8,
+    "conversion_auc_min": 0.79,
+    "f1_min": 0.74,
+    "calibration_error_max": 0.08,
+    "cohort_gap_pp_max": 10,
+    "p95_latency_ms_max": 250,
+    "error_rate_max": 0.02,
+    "complaint_delta_pp_max": 1.0,
+    "retention_degradation_max": 0.03,
+    "contamination_rate_max": 0.05
+  }
+}

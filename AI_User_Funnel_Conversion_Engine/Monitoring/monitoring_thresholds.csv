@@ -1,0 +1,14 @@
+Metric,Current,Warning,Critical,Cadence,Owner
+Activation AUC,0.86,0.82,0.78,daily,ML
+Churn AUC,0.88,0.84,0.8,daily,ML
+Conversion AUC,0.85,0.82,0.79,daily,ML
+Intervention Response AUC,0.82,0.79,0.75,daily,ML
+F1,0.81,0.77,0.74,daily,ML
+Calibration Error,0.033,0.06,0.08,daily,ML
+PSI,0.08,0.15,0.25,daily,MLOps
+p95 Latency ms,126.0,200.0,250.0,15m,Platform
+Error Rate,0.007,0.01,0.02,15m,Platform
+Opt-out Delta pp,0.2,0.7,1.0,daily,PM
+Complaint Delta pp,0.1,0.5,1.0,daily,PM
+Dismissal Rate,0.22,0.35,0.45,daily,PM
+Experiment Contamination,0.012,0.03,0.05,daily,Analytics

@@ -1,0 +1,8 @@
+Model,Version,Status,Family,ROC_AUC,F1,Calibration_Error,Owner
+activation_probability,1.3,Approved,GBT,0.86,0.81,0.033,ML Lead
+early_churn_7d,1.2,Approved,GBT,0.88,0.82,0.036,ML Lead
+paid_conversion,1.1,Approved,Calibrated GBT,0.85,0.79,0.041,ML Lead
+behavioral_segments,1.0,Approved,K-Means,,,,Data Science
+funnel_friction,1.0,Approved,Multiclass GBT,,0.79,,ML Lead
+intervention_response,1.0,Conditional,GBT,0.82,0.77,0.049,ML Lead
+next_best_action,1.0,Conditional,Constrained ranker,,,,AI PM

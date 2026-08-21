@@ -1,0 +1,37 @@
+Risk_ID,Risk,Category,Likelihood,Impact,Score,Primary_Control,Residual_Risk,Owner
+R01,Activation mis-targeting,Model,3,3,9,Calibration + control,Low,ML Lead
+R02,Churn over-intervention,User,4,4,16,Frequency caps + cohort calibration,Medium,AI PM
+R03,Pricing discrimination misuse,Governance,2,5,10,Policy prohibition,Low,PM/Legal
+R04,Proxy discrimination,Fairness,3,5,15,Ablation + cohort tests,Medium,Privacy/ML
+R05,Historical intervention bias,Causal,4,4,16,Randomized holdouts,Medium,Analytics
+R06,Survivorship bias,Data,3,4,12,Full-funnel inclusion,Low,Data
+R07,Label leakage,Model,3,5,15,Timestamp validation,Low,ML
+R08,Experiment contamination,Experiment,3,4,12,Persistent assignment,Low,Analytics
+R09,Attribution overclaim,Causal,4,4,16,RCT requirement,Medium,Analytics
+R10,Manipulative urgency,User,3,5,15,Content policy,Low,Design/PM
+R11,Nudge fatigue,User,4,3,12,Cross-channel caps,Low,Lifecycle
+R12,Consent bypass,Privacy,2,5,10,Fail-closed consent gate,Low,Platform
+R13,Model drift,Model,4,3,12,PSI + KPI monitoring,Low,MLOps
+R14,Activation definition drift,Governance,3,4,12,Label versioning,Medium,PM/Analytics
+R15,Churn label instability,Model,3,4,12,Usage-frequency adjustment,Medium,Analytics
+R16,Conversion harms retention,Business,3,5,15,Retention guardrail,Medium,AI PM
+R17,Intervention trust harm,User,3,5,15,Complaint/optout guardrails,Medium,AI PM
+R18,Data corruption,Data,3,4,12,Data SLA,Low,Data Eng
+R19,Scoring latency,Ops,3,3,9,Timeout + fallback,Low,Platform
+R20,P-hacking,Experiment,3,4,12,Pre-registration,Low,Analytics
+R21,Repeated peeking,Experiment,3,4,12,Fixed analysis window,Low,Analytics
+R22,Cross-treatment interference,Experiment,3,4,12,Experiment registry,Medium,Growth
+R23,Segment stereotyping,Fairness,3,3,9,Segment-use policy,Low,PM
+R24,GenAI fabrication,GenAI,3,4,12,Grounding,Low,GenAI Lead
+R25,Prompt injection,Security,3,4,12,Isolation,Medium,Security
+R26,PII leakage,Privacy,2,5,10,Filtering/pseudonymization,Low,Privacy
+R27,Retraining degradation,Model,3,4,12,Champion/challenger,Low,MLOps
+R28,Coercive copy,User,3,5,15,Content review,Low,Design
+R29,Quality inequity,Fairness,2,5,10,Parity monitoring,Low,AI PM
+R30,Fallback failure,Ops,2,5,10,Independent health tests,Low,Platform
+R31,Simulated revenue mistaken as real,Governance,3,4,12,Disclosure,Low,AI PM
+R32,Excess monetization prompts,User,4,4,16,Frequency + relevance caps,Medium,Growth
+R33,Anonymous-login assignment break,Experiment,3,3,9,Identity-safe mapping,Low,Platform
+R34,Consent cache staleness,Privacy,2,5,10,Immediate invalidation,Low,Platform
+R35,Intervention ledger outage,Ops,2,5,10,Fail closed,Low,Platform
+R36,Uplift model targets persuadable vulnerable users,Causal/Fairness,2,5,10,Sensitive-feature ban + review,Low,AI PM/Privacy
