@@ -1,0 +1,12 @@
+Metric,Current,Warning,Critical,Cadence,Owner
+Precision@10,0.84,0.76,0.72,daily,ML
+NDCG@10,0.82,0.78,0.75,daily,ML
+Propensity AUC,0.86,0.81,0.78,daily,ML
+Calibration Error,0.031,0.06,0.08,daily,ML
+Catalog Coverage,0.71,0.65,0.6,hourly,AI PM
+Intra-list Diversity,0.68,0.6,0.55,hourly,AI PM
+p95 Latency ms,118.0,200.0,250.0,15m,Platform
+Error Rate,0.006,0.01,0.02,15m,Platform
+Opt-out Delta pp,0.2,1.0,1.5,daily,AI PM
+GenAI Hallucination,0.018,0.02,0.03,daily sample,GenAI
+GenAI Unsafe Output,0.004,0.007,0.01,daily sample,GenAI

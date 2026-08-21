@@ -1,0 +1,34 @@
+# Package Manifest
+
+- AI_Model/COHORT_VALIDATION.md
+- AI_Model/HYPERPARAMETER_AND_VERSIONING.md
+- AI_Model/MODEL_SELECTION_RATIONALE.md
+- AI_Model/OFFLINE_VALIDATION_REPORT.md
+- AI_Risk_Management/AI_RISK_REGISTER.md
+- AI_Risk_Management/BIAS_TESTING_METHODOLOGY.md
+- AI_Risk_Management/MODEL_MISUSE_CASES.md
+- AI_Risk_Management/RISK_TAXONOMY.md
+- AI_Risk_Management/USER_AUTONOMY_AND_DARK_PATTERN_POLICY.md
+- AI_Risk_Management/risk_register.csv
+- Architecture/AI_SYSTEM_ARCHITECTURE.md
+- Architecture/DECISION_FLOW.md
+- Audit_Evidence/INCIDENT_POSTMORTEM_EXAMPLE.md
+- Audit_Evidence/RELEASE_EVIDENCE.md
+- Data_Governance/DATA_LINEAGE.md
+- Data_Governance/DATA_QUALITY_SLA.md
+- Data_Governance/FEATURE_GOVERNANCE_POLICY.md
+- Experimentation/EXPERIMENT_ANALYSIS_TEMPLATE_FILLED.md
+- Experimentation/SAMPLE_SIZE_AND_POWER.md
+- Governance/AUDIT_TRAIL_REQUIREMENTS.md
+- Governance/CHANGE_MANAGEMENT.md
+- Governance/MODEL_LIFECYCLE_POLICY.md
+- Governance/OPERATING_CADENCE.md
+- Governance/RELEASE_CHECKLIST.md
+- Governance/governance_config.json
+- Governance/model_registry.csv
+- Monitoring/MODEL_DRIFT_DIAGNOSTIC_PLAYBOOK.md
+- Monitoring/OBSERVABILITY_SPEC.md
+- Monitoring/monitoring_thresholds.csv
+- Operations/ON_CALL_RUNBOOK.md
+- Operations/STAKEHOLDER_ESCALATION_MATRIX.md
+- README_ADDON.md

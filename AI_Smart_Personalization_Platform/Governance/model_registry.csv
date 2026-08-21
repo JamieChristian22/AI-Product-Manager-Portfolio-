@@ -1,0 +1,6 @@
+Model,Version,Status,Family,Validation,Next_Review,Owner
+behavioral_segmenter,1.2,Approved,K-Means,silhouette=0.57,2026-09-03,ML Lead
+conversion_propensity,1.4,Approved,GBT,AUC=0.86;F1=0.81,2026-09-03,ML Lead
+realtime_ranker,2.1,Approved,LTR-style weighted,P@10=0.84;NDCG=0.82,2026-09-03,Ranking Lead
+bandit_explorer,1.0,Conditional,bounded MAB,guardrails passed,2026-08-27,Experiment Lead
+genai_explainer,1.1,Conditional,grounded LLM,grounded=97.2%,2026-08-27,GenAI Lead

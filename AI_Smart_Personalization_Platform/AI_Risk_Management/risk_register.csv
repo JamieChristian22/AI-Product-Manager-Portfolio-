@@ -1,0 +1,11 @@
+Risk_ID,Risk,Likelihood,Impact,Score,Residual_Risk,Owner,Trigger
+R01,Popularity bias,4,3,12,Medium,Ranking Lead,Catalog coverage <60%
+R02,Filter bubble,4,4,16,Medium,AI PM,Diversity <0.55
+R03,Feedback loop,4,4,16,Medium,ML Lead,Exposure concentration +15%
+R04,Proxy discrimination,3,5,15,Medium,Privacy + ML,Quality gap >10pp
+R06,Consent bypass,2,5,10,Low,Platform,Mismatch >0.1%
+R08,Feature drift,4,3,12,Low,MLOps,PSI >0.25
+R17,GenAI hallucination,3,4,12,Low,GenAI,Hallucination >3%
+R18,Prompt injection,3,4,12,Medium,Security,Successful exploit
+R25,Opt-out failure,2,5,10,Low,Platform,Failure >0.1%
+R30,Fallback failure,2,5,10,Low,Platform,Fallback health fail
