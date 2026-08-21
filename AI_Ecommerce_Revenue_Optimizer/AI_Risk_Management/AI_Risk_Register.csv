@@ -1,0 +1,19 @@
+risk_id,risk,likelihood,impact,inherent_score,preventive_controls,detection,owner,residual_risk,response
+R-01,Unfair or discriminatory dynamic pricing,Medium,Critical,12,No protected traits; +/-8% bound; 22% margin floor; contextual economics only,Outcome disparity monitoring,Product+Risk,Medium,Freeze and rollback affected logic
+R-02,Behavioral feature acts as protected-trait proxy,Medium,High,9,Feature review; prohibited list; data minimization,Monthly proxy audit,Data Science+Privacy,Medium,Remove feature and retrain
+R-03,Popularity feedback loop reduces catalog diversity,High,Medium,9,Exposure caps; 10% exploration; diversity reranking,Category/seller concentration,ML Product,Low-Medium,Adjust weights/exploration
+R-04,Cold-start items/sellers receive too little exposure,Medium,Medium,6,Product-age signal; exploration pool,Exposure by product age/seller cohort,Product,Low,Increase exploration and retest
+R-05,Cart intervention becomes manipulative or excessive,Medium,High,9,0.67 threshold; 1/session; 3/7 days; no dark patterns,Frequency/dismissal/complaints,Growth+UX,Low-Medium,Raise threshold or disable
+R-06,Model drift degrades outcomes,Medium,High,9,Chronological validation; drift thresholds,PSI/AUC/NDCG/MAPE,MLOps,Medium,Freeze fallback retrain
+R-07,Bad or missing data corrupts scores,Medium,High,9,Schema checks; required fields; dedupe,Freshness/missingness/duplicates,Data Engineering,Low-Medium,Stop affected pipeline
+R-08,Optimization harms seller margin,Medium,Critical,12,Contribution-margin objective; 22% floor,Margin and seller dashboards,Commercial+Product,Low,Block/rollback category
+R-09,Opaque personalization reduces trust,Medium,High,9,Explanations; controls; restrained messaging,Complaints/opt-outs,Product+UX,Medium,Improve transparency or pause
+R-10,Privacy overcollection or excessive retention,Low-Medium,Critical,8,Minimization; pseudonymous IDs; RBAC; retention limits,Access/field inventory audit,Privacy+Security,Low,Revoke/delete/investigate
+R-11,Unvalidated model/rule change reaches users,Low,High,6,Release gates; versioning; approvals,Change-log audit,Product+MLOps,Low,Rollback approved version
+R-12,Short-term revenue optimization harms retention,Medium,High,9,Retention/repeat purchase as guardrails,28-day retention trend,Product,Medium,Stop experiment and redesign objective
+R-13,GenAI fabricates merchandising claim,Medium,High,9,Grounded inputs; filters; human approval,Unsupported-claim sampling,Content+Product,Low-Medium,Remove output/retest prompt
+R-14,Prompt injection in catalog text,Medium,High,9,Input delimiting; allowlisted tools; no secrets,Red-team and anomaly review,Security+ML,Medium,Disable workflow/sanitize source
+R-15,Experiment falsely attributes lift,Medium,High,9,Randomized 50/50; SRM check; predeclared metrics,Confidence intervals/SRM,Analytics,Low-Medium,Do not launch; rerun
+R-16,Automated action persists after incident,Low,Critical,8,Kill switch; traffic routing; owner on-call,Rollback drill,Product+MLOps,Low,Immediate disable and incident command
+R-17,Competitor price signal is stale/manipulated,Medium,Medium,6,Freshness threshold; outlier filter; bounded influence,Source freshness/outlier rate,Pricing Analytics,Low-Medium,Ignore signal and use internal baseline
+R-18,GenAI exposes confidential prompt/context,Low,High,6,No secrets in prompt; output filters; isolated context,Security test suite,Security,Low,Disable and investigate
