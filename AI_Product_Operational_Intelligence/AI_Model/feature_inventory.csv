@@ -1,0 +1,20 @@
+feature,model,source,purpose,data_classification,protected_or_sensitive,proxy_risk,retention_days,control
+session_duration_seconds,Cart Abandonment,Web Events,Engagement intensity,Pseudonymous behavioral,No,Low,90,Minimum necessary
+checkout_step,Cart Abandonment,Web Events,Funnel position,Pseudonymous behavioral,No,Low,90,Allowlisted categorical
+cart_value,Cart Abandonment,Commerce Events,Purchase intent,Transaction-derived,No,Medium,180,Segment monitoring
+traffic_source,Cart Abandonment,Attribution,Context,Marketing metadata,No,Medium,90,Proxy review
+user_returning_flag,Cart Abandonment,Commerce Events,Historical relationship,Pseudonymous behavioral,No,Medium,180,No identity fields
+category_affinity,Recommendation,Web/Commerce Events,Relevance,Pseudonymous behavioral,No,Medium,180,Derived aggregate
+recent_views,Recommendation,Web Events,Relevance,Pseudonymous behavioral,No,Low,90,Recency window
+prior_purchases,Recommendation,Commerce Events,Relevance,Transaction-derived,No,Medium,365,Category-level aggregation
+product_popularity,Recommendation,Catalog Analytics,Cold-start signal,Aggregate,No,Low,30,Diversity cap
+product_age_days,Recommendation,Catalog,Exploration,Product metadata,No,Low,Indefinite,Cold-start fairness review
+reference_price,Price Response,Catalog/Pricing,Optimization base,Commercial,No,Low,365,Approved source only
+unit_cost,Price Response,Finance/Product,Margin constraint,Confidential commercial,No,Low,365,RBAC
+inventory_band,Price Response,Inventory,Context,Commercial,No,Low,30,Banded not exact where possible
+seasonality_index,Price Response,Analytics,Demand context,Aggregate,No,Low,365,Versioned definition
+competitor_price_index_simulated,Price Response,Simulation,Scenario feature,Synthetic,No,Medium,30,Simulation disclosure
+race,All,None,Prohibited,None,Yes,High,0,Blocked
+religion,All,None,Prohibited,None,Yes,High,0,Blocked
+health_status,All,None,Prohibited,None,Yes,High,0,Blocked
+precise_location,All,None,Prohibited,None,Yes,High,0,Blocked

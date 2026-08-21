@@ -1,0 +1,5 @@
+model_id,version,status,owner,validation_date,primary_metric,result,fallback,retrain_trigger
+reco_ranker,v1.3,Approved-Simulation,ML Product,2026-08-18,NDCG@10,0.387,Contextual popularity rules,NDCG drop >10% or PSI >0.20
+cart_abandon,v1.2,Approved-Simulation,Growth Analytics,2026-08-18,ROC-AUC,0.842,Non-personalized checkout assistance,AUC <0.78 or calibration breach
+price_response,v1.1,Approved-Simulation,Pricing Product,2026-08-18,Demand MAPE,8.9%,Static approved pricing,MAPE >15% or policy breach
+genai_merch,v0.9,Limited-Simulation,Content Product,2026-08-18,Grounded Claim Rate,98.7%,Manual copy workflow,Unsupported claims >2%

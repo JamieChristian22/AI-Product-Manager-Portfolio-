@@ -1,0 +1,26 @@
+# AI Model Release Checklist — Completed Simulation
+
+- [x] Business objective, intended users, and non-goals documented
+- [x] Synthetic/portfolio nature of data and outcomes disclosed
+- [x] Feature inventory completed and prohibited feature list enforced
+- [x] Chronological train/validation/test split used
+- [x] Leakage tests completed
+- [x] Primary offline model gates passed
+- [x] Probability calibration reviewed for abandonment model
+- [x] Robustness/degraded-input tests completed
+- [x] Segment and fairness review completed
+- [x] Proxy-risk review completed
+- [x] Privacy/data-minimization review completed
+- [x] Pricing +/-8% bounds tested
+- [x] 22% gross-margin floor tested
+- [x] Seller/customer guardrails defined
+- [x] Recommendation diversity/exploration controls tested
+- [x] Intervention frequency/suppression rules tested
+- [x] GenAI grounding, policy, and prompt-injection tests completed
+- [x] Monitoring alerts and owners assigned
+- [x] Fallback and kill-switch behavior documented
+- [x] Rollback drill completed in simulation
+- [x] Experiment hypothesis and metrics pre-registered
+- [x] Sample-ratio-mismatch check included
+- [x] Release decision recorded
+- [x] Model registry updated
