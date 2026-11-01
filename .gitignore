@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+reports/
+.DS_Store
+*.key
+*.pem
+*.p12
+*.pfx
+# Keep committed synthetic datasets, notebooks and portfolio materials intact.
