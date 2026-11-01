@@ -30,6 +30,20 @@ This portfolio combines product management, analytics, machine learning concepts
 
 ---
 
+## Interactive AI Product Evidence Explorer & Automated Validation
+
+[![AI PM validation](https://github.com/JamieChristian22/AI-Product-Manager-Portfolio-/actions/workflows/validate-ai-pm.yml/badge.svg)](https://github.com/JamieChristian22/AI-Product-Manager-Portfolio-/actions/workflows/validate-ai-pm.yml)
+
+**[Explore the four-project interactive evidence dashboard](demo/ai-product-evidence.html)** · [Validation method, data lineage and unresolved evidence boundaries](docs/AI_PM_VALIDATION.md)
+
+The offline dashboard links all four AI case studies and allows filtering of **source-backed synthetic KPI data**, model-evaluation gates, monitoring limits, risk scenarios and documented acceptance records. Download and open the HTML in a browser to interact.
+
+**CI validation** uses Python 3.11 and 3.12 to independently execute **16 SQL reconciliation checks**, reproduce model-evaluation threshold arithmetic, validate monitoring/risk registries, test malformed input handling and verify the dashboard's exact CSV parity. A separate Git-history scan checks for exposed credentials. [Inspect the hosted workflow](.github/workflows/validate-ai-pm.yml) rather than assuming a passing badge proves AI effectiveness.
+
+**Data disclosure:** The same **five-row** synthetic analytics dataset is duplicated in all four projects. The first two case studies also reuse an identical **18-row** modeled metric table. These are **not independent data or model evaluations**. The funnel project's 12 acceptance statuses are authored case-study records, **not tests executed by this workflow**. None of these artifacts verifies production AI performance, causal impact, privacy safety or actual customer outcomes.
+
+---
+
 ## 👋 Executive Snapshot
 
 AI-focused Product Manager with hands-on portfolio experience across:
