@@ -917,3 +917,7 @@ https://github.com/JamieChristian22
 ## 📄 License
 
 This portfolio is available under the **MIT License** for portfolio and educational purposes.
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
